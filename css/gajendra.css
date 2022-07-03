@@ -1,0 +1,3191 @@
+:root
+{
+    --background:#a1d1df;
+}
+
+/*************** About Us Page ********************/
+.HeaderSize{
+    height: auto;
+    min-height: 0;
+    margin-bottom: 6.5rem;
+}
+.Container{
+    height: auto;
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    margin-top: 0rem;
+}
+.Container .Details, .Story, .Title, .Scroll{
+    height: auto;
+    width: 100%;
+}
+.Container .Details .Title h1{
+    height: 100%;
+    width: fit-content;
+    font-size: 5rem;
+    font-family: Anaton;
+    margin: 0 1rem;
+    padding: 0.5rem 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Details .Story p{
+    height: auto;
+    width: 90%;
+    margin: 1% 5%;
+    letter-spacing: 0.6px;
+    word-spacing: 5px;
+    line-height: 2.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Details .Story p::first-letter{
+    font-size: 2.5rem;
+    font-weight: 550;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Slider{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    overflow-x: scroll;
+}
+.Slider::-webkit-scrollbar{
+    background: none;
+    height: 0.4rem;
+}
+.Slider::-webkit-scrollbar-button{
+    display: none;
+}
+.Slider::-webkit-scrollbar-corner{
+    background: #24ea6f;
+}
+.Slider::-webkit-scrollbar-thumb{
+    background: #243a6f;
+    border-radius: 1rem;
+}
+
+.Scroll{
+    width: 4in;
+    height: auto;
+    margin: 1rem 0.3in;
+}
+.Scroll .Image, .Scroll .Image img{
+    height: 2in;
+    width: 2in;
+    background: var(--background);
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+.MiniTitle{
+    height: auto;
+    width: 100%;
+}
+.MiniTitle h2{
+    height: 3rem;
+    width: fit-content;
+    margin: 0.5rem 1rem;
+    margin-top: 2rem;
+}
+.MiniTitle p{
+    height: auto;
+    width: calc(100% - 2rem);
+    margin: 0 1rem;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.7px;
+    word-spacing: 5px;
+}
+.MiniTitle p::first-letter{
+    font-family: Anaton;
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+/*------------- End of About Us Page ---------------*/
+
+/************ Contact Us Page *****************/
+.Center{
+    width: 100%;
+    height: auto;
+    padding-top: 0.2in;
+}
+.Center h1{
+    text-align: center;
+    width: 100%;
+    font-size: 0.8in;
+    font-family: Anaton;
+}
+.Center p{
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.7px;
+    word-spacing: 4px;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+    font-style: italic;
+}
+.ContactField{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+.Info,.Form{
+    height: auto;
+    width: 5.5in;
+    display: grid;
+    grid-template-columns: auto;
+}
+.Background{
+    width: 100%;
+    height: fit-content;
+    margin-top: 0rem;
+
+}
+.Form{
+    background: #fff;
+    min-height: 4in;
+    margin-bottom: 2rem;
+}
+.BackgroundImage{
+    width: 100%;
+    height: calc(100% - 37rem);
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+.BackgroundImage img{
+    height: 100%;
+    filter: opacity(0.5) sepia(0.5) saturate(50%);
+}
+.bc{
+    background: #0f0f0f39;
+    padding-bottom: 0.5in;
+    padding-top: 1in;
+}
+.Info h1{
+    font-size: 2rem;
+    font-family: Anaton;
+    font-weight: 550;
+    margin-top: 3rem;
+}
+.Info .Address p{
+    width: calc(100% - 2rem);
+    height: auto;
+    margin: 1rem;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+.Form .Head{
+    width: calc(100% - 2rem);
+    height: fit-content;
+    margin: 1rem;
+}
+.Head h1{
+    height: auto;
+    width: fit-content;
+    font-size: 3rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.EntryFields{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+}
+.EntryFields input,textarea{
+    height: 4rem;
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    border: none;
+    border-bottom: 2px solid #243a6f;
+    outline: none;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 3rem;
+}
+.EntryFields textarea{
+    min-height: 1.5in;
+    max-height: fit-content;
+    resize: none;
+}
+textarea::-webkit-scrollbar{
+    display: none;
+}
+.Form .btn{
+    height: fit-content;
+    width: 100%;
+    background: none;
+    padding-bottom: 0.3in;
+    margin: 0 auto;
+}
+.Form .btn button{
+    height: 2rem;
+    width: fit-content;
+    padding: 2rem 3rem;
+    font-size: 3rem;
+    font-family: Anaton;
+    line-height: 0rem;
+    background: #24ea6f;
+    border-radius: 1rem;
+    border: none;
+    margin: 0;
+    margin-left: -1rem;
+    color: #243a6f;
+    cursor: pointer;
+    transition: background 0.5s linear;
+}
+.Form .btn button:hover{
+    border: 0.3rem solid #24ea6f;
+    background: #fff;
+}
+@media only screen and (max-width:1105px){
+    .Info,.Form{
+        width: 5in;
+    }
+}
+@media only screen and (max-width:1024px){
+    .Info,.Form{
+        width: 4in;
+    }
+    #bt{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #bt button{
+        margin: 1rem auto;
+        min-width: 17rem;
+    }
+    a[href="./sign up.php"]{
+        margin-left: -2.5rem;
+    }
+}
+@media only screen and (max-width:825px){
+    .Info,.Form{
+        width: 3in;
+    }
+    .Form .btn {
+        margin: 0 auto;
+    }
+    .BackgroundImage{
+        width: 100%;
+        height: calc(100% - 76rem);
+    }
+    .BackgroundImage img{
+        width: 90rem;
+    }
+}
+@media only screen and (max-width:630px){
+    .ContactField{
+        display: block;
+    }
+}
+/*------------- End of Contact Us Page -------------*/
+/***************** Login Page **********************/
+#bt a button{
+    margin-left: 3rem;    
+}
+#bt{
+    width: fit-content;
+    margin: 1rem auto;
+}
+a[href="./forgot.php"]{
+    width: fit-content;
+    margin: 0rem auto;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+a[href="./forgot.php"]:hover{
+    text-decoration: underline;
+}
+.Info .Title h1{
+    width: fit-content;
+    height: auto;
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    margin: 0 auto;
+}
+.Info .btn{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+.Info .btn button{
+    height: auto;
+    width: calc(100% - 2rem);
+    padding: 2rem 0;
+    border-radius: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    background: none;
+    border: none;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+.Info .btn button:nth-child(1){
+    background: #3b5998;
+}
+.Info .btn button:nth-child(1)::before{
+    content: "f";
+    font-size: 3rem;
+    color: #3b5998;
+    height: 3rem;
+    width: 5rem;
+    padding: 0 1.2rem;
+    border-radius: 0.5rem;
+    font-weight: 550;
+    background: #fff;
+    padding-bottom: 0rem;
+    text-align: center;
+    margin: 1rem;
+}
+.Info .btn button:nth-child(2){
+    background: #d84b37;
+    margin: 0;
+}
+.Info .btn button:nth-child(3){
+    background: #1da1f2;
+    color: #fff;
+}
+.btn img{
+    height: 3rem;
+    width: 3rem;
+    
+}
+.login{
+    background: #0f0f0f89;
+}
+.Terms{
+    height: auto;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+}
+.Terms input{
+    height: 1.8rem;
+    width: 1.8rem;
+    margin-right: 0.5rem;
+}
+.Terms label{
+    height: 2.5rem;
+    margin-top: 3rem;
+}
+
+/*------------- End of Login Page ----------*/ 
+
+/************* Profile Page ****************/
+.ContainerFlex{
+    height: auto;
+    width: calc(100% - 2rem);
+    display: flex;
+}
+.ListItems{
+    height: auto;
+    width: 100%;
+}
+.ListItems ul{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    border-bottom:0.1rem solid #000;
+    margin-top: 7.5rem;
+}
+.ListItems ul li{
+    height: auto;
+    width: fit-content;
+    padding: 1rem;
+}
+.ListItems ul li:hover{
+    background: #243a6f;
+    color: #fff;
+}
+.LeftContainer{
+    height: auto;
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto;
+    background: #a1d1df41;
+    margin-top: 1rem;
+}
+.LeftContainer .UserName{
+    height: auto;
+    width: calc(100% - 1rem);
+    display: flex;
+    margin: 1rem auto;
+    border-bottom: 0.1rem solid;
+}
+.LeftContainer .UserName .Image{
+    height: 7rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.LeftContainer .UserName .Image img{
+    height: 7rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    object-fit: fill;
+}
+.LeftContainer .UserName .Name{
+    height: auto;
+    width: 85%;
+    margin: 1rem;
+}
+.LeftContainer .UserName .Name h2{
+    font-size: 1.5rem;
+}
+.LeftContainer .UserName .Name h1{
+    font-size: 2.5rem;
+}
+.MoreItems{
+    height: auto;
+    width: calc(100% - 2rem);
+    margin: 1rem auto;
+}
+.MoreItems ul{
+    height: auto;
+    width: fit-content;
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+.MoreItems ul li{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.7px;
+}
+.MoreItems ul li img{
+    height: 3rem;
+    width: 3rem;
+    margin: 0 1rem;
+    margin-bottom: -0.5rem;
+}
+
+.MoreItems ul li ul{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+}
+.MoreItems ul li ul li{
+    height: fit-content;
+    width: fit-content;
+    margin: 0.5rem 0;
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+.MoreItems ul li ul li:hover{
+    text-decoration: underline;
+}
+.RightContainer{
+    height: auto;
+    width: 70%;
+}
+.RightContainer .Title{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.RightContainer .Details .Title h1{
+    height: auto;
+    width: fit-content;
+    font-size: 3rem;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+edit, answer{
+    font-size: 2rem;
+    height: auto;
+    width: fit-content;
+    margin: 0;
+    margin-top: 1.7rem;
+    color: #0000ffc1;
+    font-family: Anaton;
+    cursor: pointer;
+}
+edit:hover{
+    text-decoration: underline;
+}
+.EntryField{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 1rem;
+}
+.EntryField input, .prod select{
+    height: fit-content;
+    width: fit-content;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #243a6f;
+    color: #243a6f;
+}
+gender{
+    height: auto;
+    width: 100%;
+}
+gender h1{
+    font-size: 2rem;
+    margin: 1rem 2rem;
+    margin-top: 3rem;
+}
+gender input{
+    margin-left: 1.5rem;
+    cursor: pointer;
+    margin-right: 0.2rem;
+}
+gender label{
+    cursor: pointer;
+}
+#male{
+    margin-left: 3rem;
+}
+.Email{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 1rem 2rem;
+    margin-top: 3rem;
+}
+.Email h1{
+    height: auto;
+    width: fit-content;
+    font-size: 3rem;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+.Email edit, .Email pass{
+    font-size: 2rem;
+    height: auto;
+    width: fit-content;
+    margin: 0 2rem;
+    margin-top: 1.2rem;
+    color: #0000ffc1;
+    font-family: Anaton;
+    cursor: pointer;
+}
+.EntryField input[name="email"]{
+    width: 3.5in;
+}
+.FAQ{
+    height: auto;
+    width: calc(100% - 4rem);
+    margin: 2rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: auto;
+}
+.FAQ h1{
+    height: auto;
+    width: fit-content;
+    font-size: 3rem;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+que{
+    height: auto;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin: 2rem 1rem;
+}
+ans{
+    height: auto;
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0rem 1rem;
+}
+.Deactivate{
+    height: auto;
+    width: 100%;
+    margin: 2rem;
+}
+/*---------- End of Profile Page ----------------*/
+
+
+/********* After Login ***********************/
+/************ Navigation Bar ***************/
+nav{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+nav .Information{
+    height: auto;
+    width: 100%;
+    background: #6cbe02;
+}
+nav .Information div{
+    height: 4rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+nav .Information section{
+    height: auto;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+nav .Information section h4, nav .Information section h3{
+    width: fit-content;
+    font-size: 1.3rem;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+nav .Information section:nth-child(3) h3, nav .Information section:nth-child(2) h3{
+    font-size: 2.1rem;
+    background: #fff;
+    color: #6cbe02;
+    text-shadow: 1px 1px 5px #fff;
+    border: 0.2rem solid #fff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+nav .Information section:nth-child(3) h3:hover, nav .Information section:nth-child(2) h3:hover{
+    background: #6cbe02;
+    color: #fff;
+    text-shadow: 0 0 5px #6cbe02;
+}
+
+nav .Information section:nth-child(4) h3{
+    margin-left: 1rem;
+}
+
+.main-navigation{
+    height: auto;
+    width: 100%;
+    background: #fff;
+}
+.main-navigation .resize{
+    height: 5rem;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.main-navigation .resize .site-title, .main-navigation .resize ul{
+    height: auto;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+
+.main-navigation .resize ul li{
+    margin-left: 2rem;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 550;
+    cursor: pointer;
+    min-height: 1.5rem;
+    padding: 1rem 0;
+}
+
+.main-navigation .resize ul li:hover, .main-navigation .resize ul i:hover, .main-navigation .resize ul:nth-child(5) li .logged-in:hover i{
+    color: #6cbe02;
+}
+
+.main-navigation .resize ul:nth-child(3) li i{
+    font-size: 1.2rem;
+    margin: 0;
+    transition: all 0.3s linear;
+}
+
+.main-navigation .resize ul:nth-child(3) li:hover i{
+    transform: rotateX(180deg);
+    color: #6cbe02;
+}
+
+.main-navigation .resize ul li ul{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: absolute;
+    background: #fff;
+    padding: 1rem;
+    margin-left: -4rem;
+    margin-top: 2rem;
+    box-shadow: 0 0 5px #000;
+    border-radius: 0.5rem;
+    transition: margin 0.1s linear;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+    z-index: -55;
+    
+}
+
+.main-navigation .resize ul li:hover ul{
+    opacity: 1;
+    z-index: 55;
+    margin-top: 1rem;
+}
+
+.main-navigation .resize ul li ul::before, .main-navigation .resize ul li ul::after{
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem;
+    background: #fff;
+    position: absolute;
+    margin-left: calc(50% - 0.75rem);
+    transform: rotateZ(45deg);
+    margin-top: calc(0% - 0.75rem);
+    z-index: 1;
+}
+
+.main-navigation .resize ul li ul::before{
+    box-shadow: 0 0 5px #000;
+}
+
+.main-navigation .resize ul li ul::after{
+    height: 1.5rem;
+    width: 3rem;
+    transform: rotateY(0deg);
+    margin-top: 0rem;
+    margin-left: calc(50% - 1.5rem);
+    background: #fff;
+}
+.main-navigation .resize ul li ul li{
+    font-weight: 300;
+    padding: 0.5rem;
+}
+
+.main-navigation .resize ul i{
+    font-size: 2.5rem;
+    color: #000;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.main-navigation .resize ul:nth-child(5) i{
+    line-height: 2.5rem;
+}
+.main-navigation .resize ul h5{
+    height: 1.8rem;
+    width: fit-content;
+    min-width: 1.8rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: #fff;
+    background: #6cbe02;
+    text-align: center;
+    line-height: 1.8rem;
+    position: absolute;
+    margin-left: 8.8rem;
+    margin-top: -1.2rem;
+}
+
+.header{
+    width: 90%;
+    margin: 0 auto;
+}
+.main-navigation .resize .site-title h1{
+    font-size: 2.9rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.main-navigation .resize ul li:nth-child(3) ul::before{
+    margin-left: calc(40% - 0.75rem);
+}
+
+.main-navigation .resize ul li:nth-child(3) ul::after{
+    margin-left: calc(40% - 1.5rem);
+}
+.main-navigation .resize ul li:nth-child(4) ul::before{
+    margin-left: calc(35% - 0.75rem);
+}
+
+.main-navigation .resize ul li:nth-child(4) ul::after{
+    margin-left: calc(35% - 1.5rem);
+}
+.main-navigation .resize ul li:nth-child(5) ul::before{
+    margin-left: calc(30% - 0.75rem);
+}
+
+.main-navigation .resize ul li:nth-child(5) ul::after{
+    margin-left: calc(30% - 1.5rem);
+}
+.main-navigation .resize ul li:nth-child(6) ul::before{
+    margin-left: calc(20% - 0.75rem);
+}
+
+.main-navigation .resize ul li:nth-child(6) ul::after{
+    margin-left: calc(20% - 1.5rem);
+}
+.main-navigation .resize ul li:nth-child(7) ul::before{
+    margin-left: calc(25% - 0.75rem);
+}
+
+.main-navigation .resize ul li:nth-child(7) ul::after{
+    margin-left: calc(25% - 1.5rem);
+}
+
+.main-navigation .resize ul li .Image{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-left: -0.5rem;
+    cursor: pointer;
+    margin-bottom: -5rem;
+    margin-top: -1rem;
+}
+
+
+.main-navigation .resize ul li .Image img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: inline;
+}
+
+.main-navigation .resize ul li .profile-option{
+    display: block;
+    top: 8rem;
+    margin-left: -9rem;
+}
+
+.main-navigation .resize ul:nth-child(5) li .profile-option::before{
+    margin-left: calc(63% - 0.75rem);
+    margin-top: calc(0% - 1.75rem);
+}
+
+.main-navigation .resize ul:nth-child(5) li .profile-option::after{
+    margin-left: calc(58% - 0.75rem);
+    margin-top: calc(0% + -14rem);
+}
+.main-navigation .resize ul .logged-in{
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: -4rem;
+    margin-top: -1rem;
+    margin-left: -0.5rem;
+}
+
+.main-navigation .resize ul .logged-in i{
+    height: 2.6rem;
+    width: 2.5rem;
+    border: 0.2rem solid #000;
+    text-align: left;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    margin: auto;
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+    padding-inline-end: 2.3rem;
+}
+
+.main-navigation .resize ul .logged-in:hover i{
+    border: 0.2rem solid #6cbe02;
+}
+
+/******* Search Bar ************/
+@keyframes wdt-out{
+     from{
+         width: 25rem;
+         margin-left: -25rem;
+     }
+     to{
+        width: 0rem;
+        margin-left: 0;
+     }
+}
+@keyframes wdt{
+    from{
+       width: 0rem;
+       margin-left: 0;
+    }
+    to{
+        width: 25rem;
+        margin-left: -25rem;
+    }
+}
+.srch{
+    margin-top: -0.3rem;
+    transition: 0.5s linear;
+    position: absolute;
+    display: flex;
+}
+.srch input{
+    height: 3rem;
+    width: 25rem;
+    margin-left: -25rem;
+    animation: wdt 1s  linear;
+    padding: 0.5rem;
+    border: 0.2rem solid #6cbe02;
+    border-radius: 0.5rem;
+    outline: none;
+    padding-right: 3.8rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.7px;
+    font-family: sans-serif;
+}
+
+
+.search{
+    height: auto;
+    width: fit-content;
+    transition: all 0.5s linear;
+}
+
+.main-navigation .resize ul:nth-child(5) .srch i{
+    height: 2.6rem;
+    width: 3.5rem;
+    background: #6cbe02;
+    color: #fff;
+    margin-top: 0.2rem;
+    text-align: center;
+    border-radius: 0 0.25rem 0.25rem 0;
+    line-height: 3rem;
+    margin-left: -3.5rem;
+    cursor: pointer;
+}
+.main-navigation .resize ul:nth-child(5) .srch i:hover{
+    height: 3rem;
+    width: 3.7rem;
+    color: #6cbe02;
+    background: #fff;
+    margin-top: 0rem;
+    line-height: 2.9rem;
+    margin-left: -3.7rem;
+    border: 0.2rem solid #6cbe02;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+
+/*------------ End of Search Bar ----------*/
+
+.main-navigation .resize ul:nth-child(5) li .profile-option  ul{
+    display: none;
+}
+
+.main-navigation .resize .bx-menu-alt-left{
+    display: none;
+}
+
+.main-navigation .resize ul:nth-child(5) .bxs-user-account, .main-navigation .resize ul:nth-child(5) .bxs-cart-download,.main-navigation .resize ul:nth-child(5) .bx-log-in{
+    display: none;
+}
+
+/******* Navigation Bug Fixing *********************/
+@media screen and (max-width: 1111px){
+    .main-navigation .resize ul li{
+        font-size: 1.3rem;
+    }
+    .main-navigation .resize ul:nth-child(5) li .profile-option li{
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 1024px){
+    .main-navigation .resize ul:nth-child(5) .bx, .cart-item-count{
+        display: none;
+    }
+    .main-navigation .resize ul:nth-child(5) li .profile-option ul .bx, .main-navigation .resize ul:nth-child(5) li .profile-option ul .cart-item-count{
+        display: inline;
+    }
+    .main-navigation .resize ul:nth-child(5) li .profile-option::after{
+        margin-top: calc(0% + -18.6rem);
+    }
+    .main-navigation .resize ul:nth-child(5) li .profile-option  ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        position: static;
+        margin: 0;
+        box-shadow: none;
+    }
+    .main-navigation .resize ul:nth-child(5) li .profile-option  ul::before{
+        display: none;
+    }
+    .main-navigation .resize ul:nth-child(5) li .profile-option  ul::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 886px){
+    .main-navigation .resize .site-title, .main-navigation .resize .bx-menu-alt-left{
+        margin: 0;
+        display: flex;
+    }
+
+    .main-navigation .resize .bx-menu-alt-left{
+        display: inline;
+        font-size: 2.5rem;
+        position: absolute;
+        margin: auto 0;
+        line-height: 3.5rem;
+        right: 3rem;
+        cursor: pointer;
+    }
+
+    .main-navigation .resize ul:nth-child(5), .main-navigation .resize ul:nth-child(3){
+        display: none;
+    }
+
+    .main-navigation .resize ul:nth-child(5) li .profile-option  ul{
+        display: none;
+    }
+
+    .show .resize ul:nth-child(5), .show .resize ul:nth-child(3){
+        height: auto;
+        width: 50%;
+        display: block;
+        position: absolute;
+        background: #fff;
+        z-index: 5;
+        left: 0%;
+        margin-top: 0rem;
+        padding-top: 5rem;
+    }
+    .show .resize ul:nth-child(3){
+        max-height: 80rem;
+        overflow-y: scroll;
+    }
+    .show .resize ul:nth-child(3)::-webkit-scrollbar, .show .resize ul:nth-child(5)::-webkit-scrollbar{
+        display: none;
+    }
+    .show .resize ul:nth-child(5){
+        height: fit-content;
+        margin-top: 2rem;
+        padding: 0;
+        margin-left: 1rem;
+    }
+    .show .resize ul:nth-child(5) li .profile-option{
+        display: none;
+    }
+
+    .show .resize ul:nth-child(5) .Image:hover img{
+        border: 0.2rem solid #6cbe02;
+    }
+
+    .show .resize ul:nth-child(5) li, .show .resize ul:nth-child(3) li{
+        font-size: 2rem;
+        width: fit-content;
+    }
+
+    .show .resize ul:nth-child(3) li ul{
+        height: 0;
+        width: fit-content;
+        position: static;
+        opacity: 1;
+        box-shadow: none;
+        margin: 0;
+        margin-left: 10%;
+        transition: 0.5s linear;
+        overflow: hidden;
+    }
+    .show .resize ul:nth-child(3) li:hover ul{
+        height: auto;
+    }
+    .show .resize ul:nth-child(3) li ul li{
+        font-size: 1.7rem;
+        margin-top: 0.5rem;
+    }
+    .show .resize ul li ul::before{
+        display: none;
+    }
+    
+    .show .resize ul li ul::after{
+        display: none;
+    }
+    .show .resize ul:nth-child(5) .bx, .cart-item-count{
+        display: inline;
+    }
+    .show .resize ul:nth-child(5){
+        display: flex;
+    }
+    .show .resize ul .logged-in i{
+        padding-inline-end: 0rem;
+        font-size: 1.9rem;
+        line-height: 2.3rem;
+    }
+    nav .Information section:nth-child(3) h3, nav .Information section:nth-child(2) h3{
+        font-size: 1.5rem;
+    }
+    @keyframes wdt-out-alt{
+        from{
+            width: 25rem;
+        }
+        to{
+           width: 0rem;
+        }
+   }
+   @keyframes wdt-alt{
+       from{
+          width: 0rem;
+       }
+       to{
+           width: 25rem;
+       }
+   }
+    .srch{
+        margin-top: -0.3rem;
+        transition: none;
+        position: absolute;
+        display: flex;
+    }
+    .srch input{
+        height: 3rem;
+        width: 25rem;
+        margin-left: 0rem;
+        animation: wdt-alt 1s  linear;
+        padding: 0.5rem;
+        border: 0.2rem solid #6cbe02;
+        border-radius: 0.5rem;
+        outline: none;
+        padding-left: 3.8rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.7px;
+        font-family: sans-serif;
+        transition: none;
+    }
+    .show .resize ul:nth-child(5) .srch i{
+        height: 2.6rem;
+        width: 3.5rem;
+        background: #6cbe02;
+        color: #fff;
+        margin-top: 0.2rem;
+        text-align: center;
+        border-radius: 0.25rem 0 0 0.25rem;
+        line-height: 3rem;
+        margin-left: 0rem;
+        cursor: pointer;
+        animation: none;
+        transition: none;
+        position: absolute;
+
+    }
+    .show .resize ul:nth-child(5) .srch i:hover{
+        height: 3rem;
+        width: 3.7rem;
+        color: #6cbe02;
+        background: #fff;
+        margin-top: 0rem;
+        line-height: 2.9rem;
+        margin-left: 0rem;
+        border: 0.2rem solid #6cbe02;
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+}
+
+@media screen and (max-width: 720px){
+    nav .Information section:nth-child(3) h3, nav .Information section:nth-child(2) h3{
+        font-size: 1rem;
+    }
+    .show .resize ul:nth-child(5), .show .resize ul:nth-child(3){
+        min-width: 28rem;
+    }
+}
+@media screen and (max-width: 630px){
+    nav .Information div{
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    nav .Information div section{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    nav .Information section:nth-child(3) h3, nav .Information section:nth-child(2) h3{
+        font-size: 2rem;
+    }
+    .show .resize ul:nth-child(3) li ul{
+        margin-left: -5%;
+    }
+}
+
+
+/*---------- End of Navigation Bug Fixing -------------*/
+
+
+
+
+
+/*----------- End of Navigation Bar ------------*/
+
+
+
+input::-webkit-inner-spin-button{
+    display: none;
+}
+/********** Seller Profile Page ********************/
+
+.grid{
+    display: grid;
+    grid-template-columns: calc(50% - 9rem) 50%;
+}
+.grid input{
+    width: fit-content;
+    margin-top: 1rem;
+}
+/*********** Products Display Section ****************/
+.SellerProductSection{
+    height: fit-content;
+    width: 98%;
+    display: grid;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+.SellerProductSection .Product{
+    height: fit-content;
+    width: 2.5in;
+    border-radius: 1rem;
+    margin: 2rem;
+    cursor: pointer;
+    box-shadow: inset 0 0 5px 0px #000;
+    display: inline-block;
+    transition: box-shadow, transform 0.3s, 0.3s ease-in-out;
+    padding-bottom: 0.5rem;
+}
+.SellerProductSection .Product:hover{
+    box-shadow: inset 0px 0px 55px 2px #6cbe02;
+    transform: scale(1.1);
+}
+.ProductID, .ProductName, .ProductDescription, .ProductCost{
+    height: auto;
+    width: 100%;
+}
+.ProductDescription{
+    padding: 0 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.ProductID h1{
+    font-size: 2rem;
+    height: auto;
+    width: fit-content;
+    margin: 0 auto;
+}
+.Product .Image{
+    height: 2.5in;
+    width: 100%;
+}
+.Product .Image img{
+    height: 97%;
+    width: 97%;
+    margin: 1.5%;
+    border-radius: none;
+}
+.Product .Image h1{
+    height: 3rem;
+    width: 5rem;
+    font-size: 2rem;
+    position: sticky;
+    margin-top: -23rem;
+    margin-left: calc(2.5in - 5rem);
+    color: #00f;
+    display: none;
+    cursor: pointer;
+}
+.Product .Image h1:hover{
+    text-decoration: underline;
+}
+.Product:hover > .Image h1{
+    display: block;
+}
+.ProductName h1{
+    width: calc(100% - 1rem);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.ProductReview{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.ProductReview h1, .SellerDetails h2{
+    height: auto;
+    width: fit-content;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.5rem;
+    background: rgb(84, 194, 84);
+    color: #fff;
+    border-radius: 0.3rem;
+    margin-left: 1rem;
+}
+.ProductReview h1 img, .SellerDetails h2 img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 0.2rem;
+}
+.ProductReview h3, .SellerDetails h3{
+    height: auto;
+    width: fit-content;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.5rem;
+    color: #454545c5;
+    border-radius: 0.3rem;
+    margin-left: 1rem;
+}
+.OriginalCost{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 1rem 0;
+    margin-bottom: 0;
+}
+.OriginalCost del{
+    height: auto;
+    width: fit-content;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: #454545c5;
+    float: left;
+}
+.OriginalCost h1{
+    font-size: 2rem;
+    width: fit-content;
+    float: left;
+    padding: 0 1rem;
+}
+.OriginalCost h3{
+    font-size: 1.5rem;
+    float: left;
+    background: rgb(75, 167, 75);
+    color: #fff;
+    padding: 0.5rem;
+    line-height: 1.2rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+}
+.DeliveryCost{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.DeliveryCost h1{
+    height: fit-content;
+    width: fit-content;
+    display: block;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+.DeliveryCost select,.DeliveryCost option{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    color: #243a6f;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+#checkall{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 2rem;
+    margin-top: -1rem;
+    position: absolute;
+    cursor: pointer;
+}
+#checkall ~ label{
+    margin-left: 4.5rem;
+    margin-top: -1rem;
+    position: absolute;
+    cursor: pointer;
+}
+.DeliveryCost h3{
+    font-size: 1.5rem;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+.Heading{
+    height: auto;
+    width: 100%;
+}
+.Heading h1{
+    font-size: 3rem;
+    text-align: center;
+}
+/*-------- End of Product Display Section ------------*/
+
+/*------------ End of Seller Profile Page --------------*/
+
+/********* Product Adding Page *****************/
+.TopTitle{
+    height: auto;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.prod input,.prod h3{
+    margin: 0.5rem;
+}
+.prod h3{
+    margin-top: 1.5rem;
+}
+.prod select, .prod select option{
+    width: 2.96in;
+    margin-left: 0.6rem;
+    cursor: pointer;
+    letter-spacing: 0.7px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #243a6f;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+/*------------- End of Product Adding Page ------------*/
+
+/*********** Product Details Page ****************/
+.margin{
+    margin: 1rem;
+    display: flex;
+    margin-top: 0;
+}
+.margin .LeftContainer{
+    height: fit-content;
+    width: 4.2in;
+    padding: 2rem;
+    background: #1da1f2;
+    box-shadow: inset 0 0 70px #045588,
+    inset 5px 5px 15px #243a6f,
+    inset -5px -5px 15px #0a4ce6;
+    border-radius: 1rem;
+}
+
+.margin .LeftContainer .ImageContainer{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    position: static;
+    margin-left: -1rem;
+}
+
+
+.margin .LeftContainer .ImageContainer > img{
+    height: 40rem;
+    width: 100%;
+    box-shadow: 0px 0px 5px  #045588;
+    border-radius: 1rem;
+    margin: auto;
+    position: sticky;
+}
+
+.margin .LeftContainer .ImageContainer .Images::-webkit-scrollbar{
+    display: none;
+}
+
+.margin .LeftContainer .ImageContainer .Images{
+    height: fit-content;
+    width: 100%;
+    overflow-y: scroll;
+    display: flex;
+    position: relative;
+}
+
+.margin .LeftContainer .ImageContainer .Images img{
+    height: 10rem;
+    width: 7rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 3px 3px #000,
+    -2px -3px 3px #1da1f2;
+    position: relative;
+}
+
+.margin .LeftContainer .ImageContainer .Images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.margin .LeftContainer .ImageContainer .main-image-container{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    overflow: hidden;
+}
+
+.margin .LeftContainer .ImageContainer .main-image-container .cursor{
+    height: 2.5cm;
+    width: 4cm;
+    position: absolute;
+    background: #0a4ce655;
+    border: 0.2rem solid #00f;
+    z-index: 50;
+    left: calc(50% - 2cm);
+    top: calc(50% - 1.25cm);
+    cursor: crosshair;
+    display: none;
+}
+
+
+.margin .LeftContainer .ImageContainer .Images::before,
+.margin .LeftContainer .ImageContainer .Images::after{
+    content: "<";
+    height: 8mm;
+    width: 8mm;
+    border-radius: 50%;
+    background: #1da1f2;
+    position: absolute;
+    top: calc(50% - 0.75rem);
+    text-align: center;
+    line-height: 7mm;
+    color: #fff;
+    box-shadow: inset 0 0 4mm #045588,
+    inset 2mm 1mm 2mm #243a6f,
+    inset -2mm -1mm 2mm #0a4ce6;
+    left: 2mm;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.margin .LeftContainer .ImageContainer .Images::after{
+    content: ">";
+    left: calc(100% - 8mm);
+    
+}
+
+.margin .LeftContainer .ImageContainer .Images::before:hover,
+.margin .LeftContainer .ImageContainer .Images::after:hover{
+    box-shadow: inset 0 0 4mm #36a8ee,
+    inset 2mm 1mm 2mm #0a4ce6;
+}
+
+#zoom{
+    height: 90vh;
+    width: calc(100vw - 4.5in);
+    border: 0.3rem solid #1da1f2;
+    position: fixed;
+    right: 0;
+    top: 5vh;
+    background: #1da1f2;
+    box-shadow: inset 0 0 70px #045588,
+    inset 5px 5px 15px 3px #243a6f,
+    inset -5px -5px 15px 3px #0a4ce6;
+    border-radius: 1rem;
+    z-index: 999;
+    overflow: hidden;
+    display: none;
+}
+
+#zoom img{
+    transform: scale(1.5);
+}
+
+/*********** Right Container ********************/
+.margin .RightContainer{
+    height: fit-content;
+    width: (100% - (4.2in + 4rem));
+    padding: 1rem;
+}
+.ItemsName{
+    height: fit-content;
+    width: 100%;
+    text-transform: capitalize;
+}
+.ItemsName h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.8px;
+    word-spacing: 1.5rem;
+    text-align: left;
+}
+.margin .RightContainer .ProductReview{
+    display: flex;
+    margin: 1rem 0;
+}
+.warning{
+    color: #f00;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.offers{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5rem calc(100% - 5rem);
+}
+.offersHead h1{
+    font-size: 2rem;    
+    margin: 1rem 0.5rem;
+    
+}
+.offers img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 1rem 0.5rem;
+    margin-bottom: -0.9rem;
+
+}
+.offers h3{
+    font-size: 1.5rem;
+    margin: 0.7rem 1rem ;
+}
+.offers a{
+    color: #00f;
+}
+.offers  a:hover{
+    text-decoration: underline;
+}
+
+.DeliveryPin, .ProductDetails, .SellerDetails, .ProductDescriptions{
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5rem;
+    display: flex;
+    margin: 1rem;
+}
+
+.DeliveryPin h1{
+    font-size: 2.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.DeliveryPin .EntryFields{
+    height: fit-content;
+    width: fit-content;
+    margin: 1rem;
+    margin-left: 3rem;
+    position: relative;
+}
+
+.DeliveryPin .EntryFields img{
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 0;
+}
+
+.DeliveryPin .EntryFields input{
+    height: fit-content;
+    width: fit-content;
+    min-width: 17rem;
+    max-width: 19rem;
+    position: relative;
+    padding: 0 3rem;
+    top: -3.6rem;
+}
+
+.DeliveryPin .EntryFields h3{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    color: #00f;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.DeliveryPin .EntryFields h3:hover{
+    color: #6cbe02;
+}
+
+.DeliveryPin .EntryFields p, .DeliveryPin .EntryFields h5{
+    position: absolute;
+    top: 3rem;
+}
+.DeliveryPin .EntryFields h5{
+    right: 0;
+    font-size: 1.5rem;
+}
+
+.DeliveryPin .EntryFields a{
+    position: absolute;
+    top: 5.5rem;
+    color: #00f;
+    cursor: pointer;
+    transition: text-decoration 0.3s ease-in-out;
+}
+.DeliveryPin .EntryFields a:hover{
+    text-decoration: underline;
+}
+
+.ProductDetails h1{
+    font-size: 2.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ProductDetails ul{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+}
+.ProductDetails ul li{
+    line-height: 2.5rem;
+}
+.SellerDetails a{
+    height: auto;
+    width: fit-content;
+    font-size: 1.3rem;
+    color: #00f;
+}
+.SellerDetails a:hover{
+    text-decoration: underline;
+}
+.SellerDetails h1, .ProductDescriptions h1{
+    font-size: 2.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.SellerDetails div{
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+    display: flex;
+}
+.SellerDetails h2{
+    height: 2.2rem;
+}
+.ProductDescriptions > h3{
+    font-size: 1.5rem;
+    margin: 1rem 3rem;
+
+}
+.ProductSpecification{
+    height: 51rem;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.ProductSpecification::-webkit-scrollbar{
+    display: none;
+}
+
+.ProductSpecification h1{
+    height: auto;
+    width: 100%;
+    margin: 1.5rem 0;
+    margin-top: 5rem;
+    border-top: 0.2rem solid;
+}
+.ProductSpecification h2{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.spec{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.spec:nth-child(odd){
+    background: #e9f0dd;
+}
+
+.spec h3{
+    height: auto;
+    width: 15rem;
+    margin-right: 3rem;
+    color: #243b6ebf;
+    font-size: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.7px;
+    word-spacing: 2.5px;
+}
+
+.spec p{
+    font-size: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.7px;
+    word-spacing: 2.5px;
+}
+.spec p::before{
+    content: ":";
+    margin-right: 2rem;
+    font-size: 2rem;
+    line-height: 1.8rem;
+    font-weight: 550;
+}
+.spec:nth-child(odd) h3, .spec:nth-child(odd) p{
+    color: #db86a6;    
+}
+
+.spec:nth-child(odd) p::before{
+    color: #243b6e;
+}
+
+.ProductRating{
+    height: auto;
+    width: 100%;
+    margin-top: 5rem;
+    border-top: 0.2rem solid;
+}
+.flex{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 1rem 0;
+    display: inline-block;
+}
+.flex h1{
+    height: auto;
+    width: fit-content;
+    font-size: 2.5rem;
+    float: left;
+}
+.flex button, .postque button{
+    height: auto;
+    width: fit-content;
+    border: 0.1rem solid;
+    background: #243b6e;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    float: right;
+    text-shadow: 0 0 5px #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+.flex button:hover, .postque button:hover{
+    background: #fff;
+    border: 0.2rem solid #243b6e;
+    cursor: pointer;
+    color: #000;
+    text-shadow: none;
+}
+.grid{
+    height: auto;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 15rem auto;
+}
+.grid h1{
+    font-size: 2rem;
+    color: #243b6ea1;
+}
+.grid h1 p img{
+    height: 1.8rem;
+    width: 1.8rem;
+    
+}
+.grid h1 p{
+    height: auto;
+    width: 100%;
+    font-size: 2.8rem;
+    color: #243b6e;
+}
+.RatingGraph{
+    height: auto;
+    width: calc(100% - 15rem);
+}
+.rateline{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.rateline h3{
+    width: 3rem;
+    font-size: 1.5rem;
+}
+.rateline h3 img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.rateline div{
+    height: 1rem;
+    width: 25rem;
+    background: #45454545;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    margin-top: 0.3rem;
+}
+.rateline div div{
+    width: 0%;
+    margin: 0;
+    background: #3cb66b;
+}
+.rateline p{
+    font-size: 1.5rem;
+    color: #454545a5;
+}
+
+.QnA{
+    height: auto;
+    width: 100%;
+    margin-top: 5rem;
+    border-top: 0.2rem solid;
+}
+.postque{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 1rem 0;
+    border-bottom: 0.1rem solid;
+}
+.postque h1{
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    margin-right: 5rem;
+}
+.qna{
+    height: auto;
+    min-height: 30rem;
+    max-height: 35rem;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+}
+.qna::after{
+    content: "~~~~~~~~ End of Questions ~~~~~~~~~";
+    height: auto;
+    width: fit-content;
+    font-size: 1.5rem;
+    font-weight: 750;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 5rem;
+}
+.qna::-webkit-scrollbar{
+    display: none;
+}
+.qna que{
+    float: left;
+}
+.qna que::before{
+    content: "Q.";
+    margin-right: 1rem;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+.qna ans{
+    float: left;
+}
+.qna ans::before{
+    content: "Ans.";
+    margin-right: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+.grid-3{
+    grid-template-columns: repeat(5,1fr);
+}
+
+.grid-3 .Product{
+    height: auto;
+    width: 2.3in;
+}
+.grid-3 .Product .Image{
+    height: 1.7in;
+    border-radius: 1rem 1rem 0 0;
+}
+.grid-3 .Product .Image img{
+    border-radius: 1rem 1rem 0 0;
+}
+.grid-3 .Product h1{
+    margin-top: 0.5rem;
+}
+.grid-3 .Product .ProductReview{
+    display: flex;
+}
+.grid-3 .Product .ProductReview h3{
+    margin-top: 0.5rem;
+}
+.grid-3 .Product .OriginalCost h1{
+    margin-top: 0.2rem;
+}
+.Product .ProductCost .OriginalCost h1::before, .Product .ProductCost .OriginalCost del::before{
+    content: "₹";
+    height: auto;
+    width: fit-content;
+    margin: 0;
+}
+.gt{
+    min-height: 0.7in;
+    height: 0.7in;
+    width: 100%;
+    margin: 0;
+    max-height: 0.7in;
+    padding: 0;
+    background: none;
+}
+.gt .bt-n{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+}
+.Form .bt-n .cart{
+    background: #e64404;
+    padding: 2rem 1rem;
+    display: inline-block;
+    margin-right: 1rem;
+}
+.Form .bt-n .cart:hover{
+    box-shadow: 0 0 2px 2px #e64404;
+    border: none;
+}
+.Form .bt-n .buy{
+    background: #2ce673;
+    padding: 2rem 1rem;
+    border: none;
+    display: inline-block;
+}
+.Form .bt-n .buy:hover{
+    font-size: 2.9rem;
+    box-shadow: 0 0 2px 2px #2ce673;
+    border: none;
+    
+}
+.br{
+    border-top: 0.2rem solid ;
+}
+
+
+@media only screen and (max-width:1296px){
+    .ListItems ul li{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width:1024px){
+    .ListItems ul li{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}
+/*------------ End of Right Container ------------*/
+/*--------- End of Product Details Page ---------*/
+/**************** Cart Page ****************/
+.grid-4 input[type="checkbox"]{
+    height: 2rem;
+    width: 2rem;
+    margin: 0;
+    position: absolute;
+    margin-left: -3rem;
+    margin-top: 1rem;
+}
+.flex{
+    background: none;
+}
+.Total{
+    height: fit-content;
+    width: calc(100% - 1rem);
+    display: flex;
+    position: relative;
+    margin: 2rem;
+    border-top: 2px solid;
+    padding-top: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Total h1{
+    height: fit-content;
+    font-size: 1.7rem;
+    font-weight: 900;
+    min-width: 20vw;
+    width: max-content;
+    display: flex;
+}
+.Total hr{
+    height: 3rem;
+    width: 2px;
+    margin: 0 5rem;
+}
+
+.Total button{
+    position: relative;
+    top: -2.7rem;
+    left: 13%;
+}
+
+form.orderpage{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+/*---------- End of Cart Page -------------*/
+/********** Orders Page *****************/
+.Details .Address{
+    margin-top: 1in;
+}
+.Details .Address .AddressDetails{
+    height: auto;
+    width: 100%;
+}
+.Details .Address .AddressDetails textarea{
+    min-height: 15rem;
+    height: auto;
+    width: 50rem;
+    margin: 0;
+    margin-left: 2rem;
+    padding: 0;
+    margin-top: 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.9px;
+    word-spacing: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.Details .Address .AddressDetails textarea::-webkit-resizer{
+    display: none;
+}
+.Details .Address .AddressDetails .DeliveryPin{
+    margin-left: 1rem;
+}
+.Details .Address .AddressDetails .DeliveryPin input{
+    height: 3.5rem;
+}
+
+.spec3{
+    height: fit-content;
+}
+
+.PaymentMethods{
+    height: fit-content;
+    width: 100%;
+    padding: 0rem;
+    margin: 1rem;
+    border-top: 0.2rem solid;
+    position: relative;
+}
+.PaymentMethods h1{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.PaymentMethods div{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.PaymentMethods input{
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+    margin-left: 3rem;
+    display: flex;
+    cursor: pointer;
+}
+.PaymentMethods label{
+    height: auto;
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+/*----------- End of Orders Page --------------*/
+/******* Bug Fixing *********/
+.gdp{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+.gdp .INFO{
+    float: left;
+    min-height: 2rem;
+    min-width: 25rem;
+    width: fit-content;
+    max-width: 40rem;
+    word-wrap: break-word;
+    border: 0.2rem solid #243a6f;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.gdp .INFO:nth-child(3){
+    clear: left;
+}
+.gdp .INFO h1{
+    font-size: 2rem;
+}
+.dns{
+    grid-template-columns: 30rem 70rem;
+    height: auto;
+    min-height: 10rem;
+}
+.dns h3{
+    height: auto;
+}
+.dns div{
+    height: auto;
+}
+.nds{
+    grid-template-columns: repeat(4,1fr);
+}
+.nds h3{
+    height: auto;
+    width: 20rem;
+    margin: 2rem 0;
+}
+.nds input{
+    height: 3rem;
+    padding: 2.5rem 2rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+.nds textarea{
+    margin-left: 5rem;
+    border-top: 0.2rem solid #243a6f;
+    margin-top: 1.5rem;
+    min-height: 15rem;
+    height: 30rem;
+    max-height: 30rem;
+    resize: none;
+    margin-bottom: 2rem;
+}
+
+.nds select{
+    margin-left: 2rem;
+}
+.nds div{
+    height: auto;
+    width: fit-content;
+    margin: 0;
+    margin-bottom: 2rem;
+    display: block;
+}
+.b .btn button{
+    height: 2rem;
+    width: fit-content;
+    padding: 2rem 3rem;
+    font-size: 3rem;
+    font-family: Anaton;
+    line-height: 0rem;
+    background: #24ea6f;
+    border-radius: 1rem;
+    border: none;
+    margin: 0;
+    margin-left: -1rem;
+    color: #243a6f;
+    cursor: pointer;
+    transition: background 0.5s linear;
+}
+.b .btn button:hover{
+    border: 0.3rem solid #24ea6f;
+    background: #fff;
+}
+.b .btn{
+    background: none;
+}
+.full{
+    width: 100%;
+}
+select::-webkit-scrollbar{
+    display: none;
+}
+#product{
+    padding-top: 0;
+}
+.Product .Image img{
+    border-radius: 1rem 1rem 0 0;
+}
+.rating-window, .question-window, .answer-window{
+    height: auto;
+    width: 50rem;
+    position: absolute;
+    background: #fff;
+    border: 0.2rem solid #243a6f;
+    border-radius: 1rem;
+    right: 1rem;
+    margin-top: -7rem;
+    display: none;
+}
+
+.rating-window .close-btn, .question-window .close-btn2, .answer-window .close-btn3{
+    height: 2.5rem;
+    width: 5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #f00;
+    color: #fff;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 990;
+    border-radius: 0 0.8rem 0 0;
+    cursor: pointer;
+}
+
+.rating-window .close-btn:hover, .question-window .close-btn2:hover, .answer-window .close-btn3:hover{
+    background: #cf0303;
+}
+
+.rating-window h1, .question-window h1, .answer-window h1{
+    font-size: 2.5rem;
+    margin: 1rem 2rem;
+}
+.rating-window .btns{
+    margin: 0 2rem;
+}
+.rating-window .btns button{
+    height: 3rem;
+    width: 4rem;
+    border: none;
+    background: none;
+    margin: 0;
+    margin-right: -0.5rem;
+    cursor: pointer;
+}
+.rating-window .btns button img{
+    filter: grayscale(100%);
+    transition: filter 0.7s linear;
+}
+.rating-window .btns button:nth-child(1){
+    background: #ff0000;
+}
+.rating-window .btns button:nth-child(2){
+    background: #ff6600;
+}
+.rating-window .btns button:nth-child(3){
+    background: #d9ff00;
+}
+.rating-window .btns button:nth-child(4){
+    background: #88ff00;
+}
+.rating-window .btns button:nth-child(5){
+    background: #0fdd4d;
+}
+
+.rating-window h2{
+    font-size: 2rem;
+    margin: 1rem 2rem;
+}
+.rating-window textarea, .answer-window textarea{
+    height: calc(100% - 15rem);
+    min-height: 15rem;
+    width: calc(100% - 5rem);
+    margin: 1rem 2rem;
+    resize: none;
+    box-shadow: 0 0 5px 2px #000;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.question-window{
+    height: auto;
+    padding-bottom: 2rem;
+    right: -1rem;
+    margin-top: 0rem;
+}
+.question-window input{
+    height: 2rem;
+    width: calc(100% - 5rem);
+    margin: 1rem 2rem;
+    padding: 2rem 1rem;
+    border: 0.2rem solid #243a6f;
+    border-radius: 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+    color: #243a6f;
+    font-weight: 550;
+    letter-spacing: 0.7px;
+    outline: none;
+}
+.question-btn{
+    width: fit-content;
+    margin: 1rem auto;
+}
+.rate-btn, .rate-btns, .ans-btns, button.ques{
+    height: auto;
+    width: fit-content;
+    margin: 1rem auto;
+}
+button.rate-btn, .rate-btns button, .ans-btns button, button.ques{
+    height: fit-content;
+    width: fit-content;
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    color: #fff;
+    background: #243a6f;
+    border: none;
+    text-shadow: 0 0 5px #000;
+    line-height: 0rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button.rate-btn:hover, .rate-btns button:hover, .ans-btns button:hover, button.ques:hover{
+    border: none;
+    background: #fff;
+    color: #000;
+    text-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 2px 2px #243a6f;
+}
+.icon sup{
+    height: auto;
+    width: 3rem;
+    position: absolute;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 550;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2rem;
+    margin-left: -2.7rem;
+    margin-top: -0.7rem;
+}
+.cancel{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    background: #f00;
+    border-radius: 50%;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    line-height: 2rem;
+    margin-top: -2.4rem;
+    margin-left: 0.9in;
+    border: none;
+    cursor: pointer;
+}
+.cancel:hover{
+    background: #fff;
+    border: 0.2rem solid #f00;
+    color: #f00;
+    line-height: 1.3rem;
+}
+.shop-now h1{
+    width:fit-content;
+    height:auto;
+    text-align:center;
+    cursor:pointer;
+    padding:2rem;
+    background:#243a6f;
+    color:#fff;
+    border-radius:1rem;
+    margin: 5rem auto;
+}
+.shop-now h1:hover{
+    border: 0.2rem solid #243a6f;
+    background: #fff;
+    color: #243a6f;
+}
+.wish-list, .wish-listed{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    margin-left: 2.14in;
+    margin-top: 0.5rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.wish-listed{
+    color: #f00;
+}
+.wish-listed:hover{
+    color: #243a6f;
+}
+.wish-list:hover{
+    color: #f00;
+}
+answer{
+    margin-left: 1rem;
+}
+answer:hover{
+    text-decoration: underline;
+}
+.answer-window{
+    right: 20rem;
+    margin-top: 1rem;
+}
+*{
+    scroll-behavior: smooth;
+}
+.ImageContainer .wish-listed, .ImageContainer .wish-list{
+    margin-left: 31rem;
+    margin-top: 1.5rem;
+    font-size: 5rem;
+}
+
+not{
+    height: auto;
+    width: 50rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.7px;
+    word-spacing: 2px;
+    color: #243a6f;
+}
+
+red{
+    color: #f00;
+}
+
+.product_edit{
+    position: absolute;
+    margin-left: 1.9in;
+}
+
+count{
+    height: 2.3rem;
+    width: 10rem;
+    position: sticky;
+    text-align: right;
+    margin-top: 29.5rem;
+    margin-left: -7.25rem;
+}
+.sell{
+    width: 50rem;
+}
+.top-container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.top-container ul, .top-container ul li{
+    height: auto;
+    width: fit-content;
+}
+.top-container ul, .top-container ul li {
+    display: flex;
+}
+.top-container ul li{
+    color: #000;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.top-container ul li i{
+    line-height: 2rem;
+}
+
+.top-container ul li::before{
+    content: ">";
+    margin-right: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2rem;
+}
+.top-container ul li:hover::before{
+    color: #000;
+}
+
+.top-container ul li:nth-child(1)::before, .top-container ul li:nth-child(2)::before{
+    content: none;
+}
+
+.top-container ul li:hover{
+    color: #6cbe02;
+}
+.top-container ul li:nth-child(1):hover{
+    color: #000;
+}
+
+.top-container ul li label:hover{
+    cursor: pointer;
+}
+
+.top-container ul li input:checked + label{
+    color: #6cbe02;
+}
+
+.all-products{
+    display: flex;
+}
+
+.filter-section{
+    height: auto;
+    width: 20%;
+    min-height: 20rem;
+    min-width: 25rem;
+    max-width: 30rem;
+    max-height: 10in;
+    margin-top: 1rem;
+    background: #ffefffa1;
+    padding: 0.5rem;
+    justify-content: left;
+    overflow-y: scroll;
+}
+
+.filter-section::-webkit-scrollbar{
+    display: none;
+}
+
+.filter-section h1{
+    text-align: center;
+    
+}
+
+.right-float{
+    height: auto;
+    min-width: calc(100% - 27rem);
+    max-width: calc(100% - 27rem);
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+}
+
+.right-float .Product{
+    margin: 1.5rem;
+    display: inline-block;
+}
+
+.filter-section .active-filters{
+    height: auto;
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.filter-section .active-filters h4{
+    height: auto;
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+    margin: 0.5rem;
+    background: rgb(141, 140, 140);
+    display: flex;
+    line-height: 2rem;
+    color: #656570;
+    cursor: pointer;
+    float: left;
+    word-break: break-all;
+}
+
+.filter-section .active-filters h4 p{
+    margin-right: 0.5rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #454545;
+}
+
+.filter-section .active-filters h4 p:hover{
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+
+.price-limitor{
+    height: auto;
+    width: 100%;
+    margin-top: 2rem;
+    float: left;
+}
+
+.filter-section h2{
+    font-size: 1.8rem;
+}
+
+.price-limitor input{
+    height: auto;
+    width: 95%;
+    margin: 0 2.5%;
+    margin-top: 1rem;
+    outline: none;
+}
+
+.price-limitor .limitor-values{
+    height: 3rem;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.price-limitor .limitor-values input{
+    text-align: center;
+    border: 0.2rem solid #6cbe02;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    border-radius: 0.5rem;
+    margin-top: 0;
+    outline: none;
+}
+
+form.filter{
+    text-align: center;
+}
+
+.brand-filter{
+    height: auto;
+    width: fit-content;
+    min-width: 15rem;
+    display: inline-block;
+    margin-top: 2rem;
+}
+.brand-filter .available-brands{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.brand-filter .available-brands input{
+    height: 1.3rem;
+    width: 1.3rem;
+    line-height: 2rem;
+    margin: auto 0;
+    cursor: pointer;
+}
+.brand-filter .available-brands p{
+    font-size: 1.7rem;
+    display: inline;
+    color: #000;
+    margin: auto 0;
+    margin-left: 0.5rem;
+    line-height: 2.5rem;
+    cursor: pointer;
+}
+
+.brand-filter .available-brands input:hover ~ p, .brand-filter .available-brands input:checked ~ p, .brand-filter .available-brands p:hover{
+    color: #6cbe02;
+}
+.brand-filter more{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.brand-filter more:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.brand-filter img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.filter-section button{
+    height: auto;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #6cbe02;
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    float: left;
+    margin: 0.5rem;
+    border: none;
+}
+.filter-section button:hover{
+    background: #6cae52;
+}
+#products form{
+    width: fit-content;
+    min-width: 25rem;
+    max-width: 26rem;
+}
+
+.found{
+    height: fit-content;
+    width: 75%;
+    display: flex;
+    position: absolute;
+    margin-top: -2rem;
+}
+.found h6{
+    font-size: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.8px;
+    word-spacing: 5px;
+    color: #6cbe02;
+    padding: 0.5rem 2rem;
+}
+
+.specific{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.dns div .spf input, .nds input{
+    height: 4rem;
+    min-width: 15rem;
+    width: 25rem;
+    margin: 2rem;
+    border: none;
+    padding: 0.5rem;
+    outline: none;
+    font-size: 1.7rem;
+    box-shadow: 2px 2px 5px 0px #454545;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 0.5rem;
+    color: #198bd6;
+}
+
+
+.dns div .spf input::-webkit-input-placeholder, .nds input::-webkit-input-placeholder{
+    color: #64b661;
+    font-weight: 550;
+    text-shadow: 2px 2px 2px #53e65b;
+}
+
+.dns div .spf input:hover, .dns div .spf input:focus,.nds input:hover, .nds input:focus{
+    box-shadow: 0 0 5px 2px #6cbe02;
+    cursor: pointer;
+}
+.nds textarea{
+    color: #198bd6;
+}
+.nds textarea:focus, .nds textarea:hover, .specific textarea:hover, .specific textarea:focus{
+    border-top: 0.2rem solid #6cbe02;
+    border-bottom: 0.2rem solid #6cbe02;
+}
+
+.specific input{
+    height: 4rem;
+    min-width: 15rem;
+    width: 25rem;
+    float: left;
+    margin: 2rem;
+    border: none;
+    padding: 0.5rem;
+    outline: none;
+    font-size: 1.7rem;
+    box-shadow: 2px 2px 5px 0px #454545;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 0.5rem;
+    color: #198bd6;
+}
+
+.specific h3{
+    height: auto;
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.7px;
+
+}
+
+.specific input::-webkit-input-placeholder{
+    color: #64b661;
+    font-weight: 550;
+    text-shadow: 2px 2px 2px #53e65b;
+}
+input.place::-webkit-input-placeholder{
+    color: #f00;
+    text-shadow: 1px 1px 4px #ee7777;
+}
+
+.specific input:hover, .specific input:focus{
+    box-shadow: 0 0 5px 2px #6cbe02;
+    cursor: pointer;
+}
+
+.specific textarea{
+    min-width: 25rem;
+    max-width: 30rem;
+    margin-left: 5rem;
+    border-top: 0.2rem solid #243a6f;
+    margin-top: 1.5rem;
+    min-height: 15rem;
+    height: 30rem;
+    max-height: 30rem;
+    resize: none;
+    margin-bottom: 2rem;
+    float: left;
+    color: #198bd6;
+}
+
+.specific count{
+    position: absolute;
+    margin-top: 29.5rem;
+    margin-left: -10.2rem;
+}
+
+note{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #000;
+    margin-left: 3rem;
+    float: left;
+}
+note noteval{
+    font-weight: 400;
+    color: #f00;
+}
+
+.see{
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    background: #fff;
+    border: 0.2rem solid #6cbe02;
+    color: #6cbe02;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.7px;
+    word-spacing: 2.5px;
+}
+.see:hover, .see:focus{
+    background: #6cbe02;
+    color: #fff;
+    border: 0.2rem solid #fff;
+    box-shadow: 0 0 3px #000;
+    text-shadow: 0 0 5px #000;
+}
+
+a[href="./seller account.php"] li{
+    max-width: 10rem;
+}
+
+a[href="./seller profile.php"] li{
+    max-width: 10.05rem;
+}
+
+@keyframes round {
+    from {
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+i.bxs-heart{
+    text-shadow: 0 0 5px #fff;
+    animation: round 3s linear infinite;
+}
+
+i.bxs-heart:hover{
+    animation-play-state: paused;
+}
+/*----- End of Bug Fixing ----------*/
+/*-----------End of After Login -------------*/
+
+.images-container{
+    height: fit-content;
+    min-height: 15rem;
+    width: fit-content;
+    max-height: 60rem;
+    min-width: 80vw;
+    max-width: 80vw;
+    padding: 1rem;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: inset 0 0 3px 3px #243a6f;
+    border-radius: 1rem;
+}
+
+.images-container .Image{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.images-container .Image img{
+    height: 20rem;
+    width: 13vw;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px #243a6f;
+}
+
+.images-container .Image img:hover{
+    box-shadow: 0 0 10px #6cbe02;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.buy-btn{
+    height: fit-content;
+    width: fit-content;
+    max-width: 37.3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.buy-btn form button{
+    height: fit-content;
+    width: fit-content;
+    margin: 0.5rem;
+    text-align: center;
+    border: solid;
+}
+
+.sort-btn, .filter-this{
+    display: none;
+}
+
+
+@media screen and (max-width: 1074px){
+    .top-container ul li{
+        font-size: 1.3rem;
+    }
+
+    .top-container ul li::before{
+        line-height: 1.3rem;   
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .right-float{
+        width: 100%;
+        max-width: none;
+    }
+    .data-sorting{
+        display: flex;
+    }
+    .sort-btn, .filter-this{
+        height: fit-content;
+        width: fit-content;
+        position: relative;
+        left: 85%;
+        margin: 0 0.5rem;
+        display: flex;
+    }
+
+    .sort-btn button, .filter-this button{
+        height: fit-content;
+        width: fit-content;
+        padding: 0.5rem 1rem;
+        font-size: 1.5rem;
+        border: 0.2rem solid #243a6f;
+        background: #fff;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+
+    .sort-btn button:hover, .filter-this button:hover{
+        border-color: #6cbe02;
+        background: #fff;
+        color: #6cbe02;
+    }
+
+    @keyframes fade-in{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+    .sort-btn ~ ul{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        position: absolute;
+        right: 3rem;
+        top: 3.5rem;
+        background: #fff;
+        border: 0.2rem solid #243a6f;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        transition: border-color 0.3s ease-in-out;
+        display: none;
+        opacity: 0;
+    }
+    
+    .sort-btn ~ ul:hover{
+        border-color: #6cbe02;
+    }
+
+    .sort-btn ~ ul li{
+        text-align: center;
+        width: fit-content;
+        margin: auto;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .sort-btn ~ ul li::before{
+        display: none;
+        
+    }
+
+    .sort-btn ~ ul li:nth-child(1){
+        display: none;
+    }
+
+    #filter{
+        width: 97%;
+        max-width: none;
+        position: absolute;
+        right: 1.5%;
+        background: #fff;
+        border: 0.2rem solid #243a6f;
+        padding: 0.5rem;
+        transition: border-color 0.3s ease-in-out;
+        border-radius: 1rem;
+        z-index: 999;
+        display: none;
+    }
+    #filter:hover{
+        border-color: #6cbe02;
+    }
+    
+    #filter h1{
+        width: 100%;
+        text-align: center;
+    }
+    #filter form.filter{
+        width: 100%;
+        max-width: none;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    #filter form.filter .price-limitor{
+        margin: 2rem auto;
+    }
+
+    #filter form.filter .brand-filter{
+        height: 25rem;
+        border-left: 0.2rem solid #243a6f;
+        border-right: 0.2rem solid #243a6f;
+        transition: border-color 0.3s ease-in-out;
+        margin: 1rem;
+        display: inline-block;
+    }
+
+    #filter form.filter .brand-filter:hover{
+        border-color: #6cbe02;
+    }
+
+    #filter form.filter .brand-filter .available-brands{
+        margin: 1rem;
+    }
+
+    #filter button{
+        width: fit-content;
+        margin: 1rem auto;
+        position: relative;
+
+        left: calc(50% - 6rem);
+        max-width: none;
+        font-size: 1.9rem;
+    }
+
+}
+
+@media screen and (max-width: 715px){
+    .sort-btn, .filter-this{
+        left: 70vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .sort-btn, .filter-this{
+        left: 65vw;
+    }
+    #filter button.apply1{
+        display: none;
+    }
+}
